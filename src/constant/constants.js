@@ -1,6 +1,6 @@
 export const LIGHT_DURATION = {
-    red:5000,
-    yellow:5000,
-    green:5000,
+    red:3000,
+    yellow:3000,
+    green:3000,
 }
 export const LIGHT_COLORS = ["red", "yellow", "green"];
