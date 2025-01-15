@@ -65,7 +65,7 @@ const Form = () => {
              onChange={handleChange}
              placeholder="Enter your name "
              autoComplete="off" /> 
-           <span>{error.username}</span>
+          { error  &&  <span>{error.username}</span>}
              </div>
              <div>
                 <label>Email:</label>

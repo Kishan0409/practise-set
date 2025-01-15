@@ -3,7 +3,8 @@ import React from "react";
 // import TrafficLight from './component/TrafficLight';
 // import Shuffle from "./component/Shuffle";
 // import TodoList from "./component/TodoList";
-import Form from "./FormValidate/Form";
+// import Form from "./FormValidate/Form";
+import Practical from "./interviewQuestions/Practical";
 
 function App() {
   return ( 
@@ -13,7 +14,8 @@ function App() {
        <TrafficLight />  */}
        {/* <Shuffle /> */}
        {/* <TodoList /> */}
-       <Form />
+       {/* <Form /> */}
+       <Practical />
     </div>
   
    </>
